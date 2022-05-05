@@ -19,7 +19,8 @@ print("국어:" "{}".format(int(a)))
 print("영어:" "{}".format(int(b)))
 print("수학:" "{}".format(int(c)))
 print("총점:" "{}".format(result))
+
+avg = int(result) / float(3) 
 print("평균:" "{}".format(avg))
 
-# 평균을 구합니다.        
-avg = int(result) / float(3) 
+
